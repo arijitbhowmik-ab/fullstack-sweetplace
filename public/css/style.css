@@ -224,9 +224,7 @@ body{
     padding: 6px;
     
 }
-.fa-user:hover{
-    /* border: 1px solid #fe424d; */
-}
+
 .fa-heart{
     position: absolute;
     top: 10px;
