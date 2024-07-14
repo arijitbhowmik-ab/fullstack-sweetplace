@@ -119,6 +119,7 @@ app.use((req,res,next)=>{
 // })
 
 app.use("/listings", listingRouter)
+app.use("/", listingRouter)
 app.use("/listings/:id/reviews", reviewRouter)
 app.use("/", userRouter)
 // app.use("/", googleAuth)
