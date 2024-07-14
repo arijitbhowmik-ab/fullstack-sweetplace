@@ -118,10 +118,11 @@ app.use((req,res,next)=>{
 //     res.send(registeredUser)
 // })
 
-// app.use("/", listingRouter)
+
 app.use("/listings", listingRouter)
 app.use("/listings/:id/reviews", reviewRouter)
 app.use("/", userRouter)
+app.use("/", listingRouter)
 // app.use("/", googleAuth)
 
 app.all("*", (req,res,next)=>{
