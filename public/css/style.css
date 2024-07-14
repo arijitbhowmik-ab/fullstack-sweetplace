@@ -1,0 +1,255 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+  background-color: #ebebeb3d;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    /* height: 4.5rem; */
+    background-color: white;
+}
+.logo{
+     color: #fe424d; 
+     font-size: 2rem; 
+}
+.logo:hover{
+    color: #fe424d;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.heading{
+    font-size: 2rem !important;
+    font-weight: 700;
+    color: #fe424d !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.f-info-socials, .f-info-links, .f-info-brands{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+    font-size: 3rem;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: 0 !important;
+}
+.show-img{
+    height: 30vh;
+
+}
+.btns{
+    display: flex;
+
+}
+.navbar-brand b{
+    font-size: 2rem;
+    color: #fe424d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* show page */
+.show-img{
+    height: 30vh;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+.review-card{
+    border: 1px solid rgba(0, 0, 0, 0.297) !important;
+    margin: 0.25rem;
+    width: 49%;
+}
+@media only screen and (max-width: 600px) {
+    .review-card{
+        width: 97%;
+    } 
+}
+
+#map { 
+    height: 100px;
+    width: 100px;
+ }
+
+#filters{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    width: max-content;
+    margin-right: 2rem;
+    /* height: 5.5rem; */
+    /* border: 1px solid red;  */
+    height: inherit;
+    font-size: 1rem;
+}
+#filters::-webkit-scrollbar{
+    width: 0;
+}
+.filter{
+    text-align: center;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    opacity: 0.7;
+    margin-right: 2rem;
+    /* border: 1px solid red; */
+    z-index: 1;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.filter p{
+    font-size: 0.8rem;
+}
+.tax-info{
+    display: none;
+}
+.tax-toggle{
+    border: 1px solid black;
+    border-radius: 0.9rem;
+    height: 3.5rem;
+    padding: 0.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+}
+.tax-toggle i{
+    font-size: 1rem;
+}
+.btn-search{
+    background-color: #fe424d;
+    color: white;
+    padding: 0 1rem;
+}
+.btn-search:hover{
+    background-color: #fe424d;
+    color: white;
+}
+.btn-search i{
+    display: inline;
+    margin-right: 0.5rem;
+}
+.search-input{
+    font-size: 1rem;
+    width: 100%;
+    
+}
+.search-input:focus{
+    box-shadow: 0 0 0px 4px #fe424f32 !important;
+    outline: none !important;
+}
+.below-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 5.5rem;
+}
+.signup-link{
+    text-align: center;
+}
+.signup-link a{
+    text-decoration: none;
+    color: black;
+}
+.signup-link a:hover{
+    color: #fe424d;
+}
+.form-check-label{
+    font-size: 0.8rem;
+}
+
+/* .profile-link:hover, .profile-link i:hover{
+    color: #fe424d !important;
+} */
+.fa-user{
+    border: 1px solid black;
+    border-radius: 200px;
+    padding: 6px;
+    
+}
+.fa-user:hover{
+    /* border: 1px solid #fe424d; */
+}
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    border-radius: 50%;
+    z-index: 1;
+}
+@media screen and (max-width: 996px) {
+    .tax-toggle{
+        width: 50rem;
+    }
+}
+@media screen and (min-width: 765px)   {
+    .search-input{
+        width: 20vw;
+    }
+}
+@media screen and (max-width: 765px) {
+    .tax-toggle{
+        display: none;
+    }
+    #filter{
+        width: 100%;
+    }
+}
