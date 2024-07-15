@@ -131,7 +131,7 @@ body{
     justify-content: space-between;
     overflow-x: auto;
     width: max-content;
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     height: inherit;
     font-size: 1rem;
 }
@@ -230,6 +230,10 @@ body{
     color: white;
     border-radius: 50%;
     z-index: 1;
+}
+.f-info-socials a{
+    text-decoration: none;
+    color: #222222;
 }
 @media screen and (max-width: 996px) {
     .tax-toggle{
