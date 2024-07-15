@@ -133,7 +133,7 @@ body{
     width: max-content;
     /* margin-right: 2rem; */
     /* height: 5.5rem; */
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     height: inherit;
     font-size: 1rem;
 }
