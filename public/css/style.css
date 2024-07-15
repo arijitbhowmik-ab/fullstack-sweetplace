@@ -131,7 +131,7 @@ body{
     justify-content: space-between;
     overflow-x: auto;
     width: max-content;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     height: inherit;
     font-size: 1rem;
 }
